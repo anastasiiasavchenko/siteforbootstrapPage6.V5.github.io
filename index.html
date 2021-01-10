@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Site for Bootstrap v.5</title>
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>   
+   <header id="header" class="fixed-top" style="background: #000">
+     <nav class="navbar navbar-expand-lg navbar-dark">
+       <div class="container">
+             <a href="#" class="navbar-brand">Seven</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+           <div class="collapse navbar-collapse" id="navContent">
+             <ul class="navbar-nav mr-auto mb-3 mb-lg-0">
+               <li class="nav-item">
+                   <a href="#" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a href="#" class="nav-link">About</a>
+               </li>
+               <li class="nav-item">
+                   <a href="#" class="nav-link">Our contacts</a>
+               </li>
+               <li class="nav-item dropdown">
+                   <a href="#" class="nav-link dropdown-toggle" id="navDrop" role="button" data-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                   <ul class="dropdown-menu" aria-labelledby="navDrop">
+                     <li><a href="" class="dropdown-item">SubPage 1</a></li>
+                     <li><a href="" class="dropdown-item">SubPage 2</a></li>
+                     <li><a href="" class="dropdown-item">SubPage 3</a></li>
+                   </ul>
+               </li>
+             </ul>         
+           </div>
+           <form action="#" class="d-flex">
+               <input type="Search" placeholder="Search" class="form-control">
+               <span class="border border-white rounded"><button type="submit" class="btn btn-outline-dark">Search</button></span>
+          </form>               
+       </div>
+     </nav>
+   </header>
+
+   <section id="hero" class="d-flex align-items-center justify-content-center">
+     <div class="container text-center">
+       <div class="row justify-content-center">
+         <div class="col-md-6 col-md-8">
+           <h1>Premium Interior</h1>
+           <h2>SEVEN is an internationally operating company   
+            with more than 115 years of success in interior design.
+            Experience interior design at the highest level.
+            We look forward to realising your unique ideas.</h2>
+         </div>        
+       </div>
+       <div class="row mt-5 justify-content-center">
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="icon-box">
+             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#693148" class="bi bi-card-image" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+             </svg>
+             <h5><a href="#">3D-Drawing</a></h5>
+           </div>
+         </div>
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="icon-box">
+             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#693148" class="bi bi-card-image" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+             </svg>
+             <h5><a href="#">Value engineering</a></5>
+           </div>
+         </div>
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="icon-box">
+             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#693148" class="bi bi-card-image" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+             </svg>
+             <h5><a href="#">Our Production</a></h5>
+           </div>
+         </div>
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="icon-box">
+             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#693148" class="bi bi-card-image" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+             </svg>
+             <h5><a href="#">Progect Management</a></h5>
+           </div>
+         </div>
+         <div class="col-xl-2 col-md-4 col-6">
+           <div class="icon-box">
+             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#693148" class="bi bi-card-image" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+             </svg>
+             <h5><a href="#">Logistics & Assembly</a></h5>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <section class="about my-5" id="about">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6 order-1 order-lg-2">
+           <img class="img-fluid" src="https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+         </div>
+         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 content">
+           <h3 class="text-uppercase">Made in Italy</h3>
+           <p>
+             In our company, the most modern technology and traditional craftsmanship come together. We only use trained specialist personnel. While the most advanced computer-assisted machines process fine and exclusive materials and we produce special components ourselves using our own 3D printer, the specialists in our workshop also work with traditional hand tools to create the finest interior for you. Precision is one of our passions.
+           </p>
+           <ul>
+             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#64724e" class="bi bi-check2" viewBox="0 0 16 16">
+             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+             </svg>What began in 1905 as a carpentry shop in a small village has developed into a globally active joinery producing furniture and high-quality interiors.</li>
+
+             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#64724e" class="bi bi-check2" viewBox="0 0 16 16">
+             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+             </svg>Much has changed since then.</li>
+
+             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#64724e" class="bi bi-check2" viewBox="0 0 16 16">
+             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+             </svg>What has remained, however, is the love for our basic material wood, the joy in the finest details, the urge for the highest quality and precision and the attachment to our home in the Münsterland.</li>
+           </ul>
+           <p>For us, the highest quality without compromise is the first priority in our actions, followed by a love of the finest, first-class materials, excellent service, a craftsmanship that draws on exclusive knowledge and many years of experience, and a reliable service that guarantees our customers’ satisfaction. We want to relieve interior designers and designers of as much work as possible so that they can concentrate fully on the ideas for their customers’ living spaces. We are always true to our word. Agreements and promises are strictly adhered to. We treat our partners and employees with respect and honesty. If there are changes, we react flexibly to ensure a smooth process.
+
+           In addition to quality, reliability, punctuality and precision, we also focus on skill and knowledge down to the smallest detail. In doing so, we bundle our strengths and attach great importance to the further development of technological craftsmanship and skills. Our efforts are focused on your individual wishes, which we always strive to implement with the utmost precision.</p>
+         </div>     
+       </div>   
+     </div>  
+   </section>
+
+   <section class="cta mb-5">
+     <div class="container text-center">
+       <h3>Call to action</h3>
+       <p>A company is only as good as its employees and its employees can only be good if the company creates the right conditions for them. Trusting, humane cooperation, fair working conditions, constant exchange of information, constant further development and training as well as good teamwork are at the centre of our corporate culture.</p>
+       <a href="#" class="cta-btn">Call to action</a>
+     </div>
+   </section>
+
+   <h3 class="m-5 text-center">OUR WORKS</h3>
+   <div class="carousel slide m-5" data-ride="carousel" id="blogCarousel">
+     <ol class="carousel-indicators">
+       <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#blogCarousel" data-slide-to="1"></li>
+     </ol>
+     <div class="container carousel-inner">
+       <div class="carousel-item active">
+         <div class="row">
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/2504980/pexels-photo-2504980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/4050318/pexels-photo-4050318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+         </div>
+       </div>
+
+       <div class="carousel-item">
+         <div class="row">
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/4916510/pexels-photo-4916510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+           <div class="col-md-3">
+             <a href="#">
+               <img class="w-100" src="https://images.pexels.com/photos/2343465/pexels-photo-2343465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+             </a>
+           </div>
+         </div>
+       </div> 
+     </div>
+   </div>
+
+   <section id="team" class="team">
+     <div class="container text-center mt-5">
+       <div class="section-title">
+         <h2>Our team</h2>
+         <p>Check our team</p>
+       </div>
+       <div class="row">
+         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+           <div class="member">
+             <div class="member-img">
+               <img class="img-fluid" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+               <div class="social">
+                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+               </div>
+             </div>
+             <div class="member-info">
+               <h4>John Doe</h4>
+               <span>Designer</span>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+           <div class="member">
+             <div class="member-img">
+               <img class="img-fluid" src="https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+               <div class="social">
+                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+               </div>
+             </div>        
+             <div class="member-info">
+               <h4>Jessica Davies</h4>
+               <span>Architector</span>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+           <div class="member">
+             <div class="member-img">
+               <img class="img-fluid" src="https://images.pexels.com/photos/1181479/pexels-photo-1181479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+               <div class="social">
+                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+               </div>
+             </div>            
+             <div class="member-info">
+               <h4>Evie  Moore</h4>
+               <span>Project Manager</span>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+           <div class="member">
+             <div class="member-img">
+               <img class="img-fluid" src="https://images.pexels.com/photos/4098274/pexels-photo-4098274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+               <div class="social">
+                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+               </div>
+             </div>
+             <div class="member-info">
+               <h4>Elizabeth Johnson</h4>
+               <span>Team leader</span>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+     
+   <section class="services">
+    <div class="container text-center">
+       <div class="section-title">
+         <h2>Services</h2>
+         <p>Check our services</p>
+       </div>
+       <div class="row">
+         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Quality</h4>
+             <p>We want you to enjoy our products for a long time. For this reason we have set high standards for our designs, the materials used and their processing. Thus our work convinces in every detail!</p>
+           </div>
+         </div>
+
+       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Experience</h4>
+             <p>As a family-run company with more than 115 years of experience, we offer our customers impressive technical expertise, which enables us to realise even unusual projects.</p>
+           </div>
+         </div>
+
+     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Team spirit</h4>
+             <p>We believe that we can only achieve more as a team. With the expertise of more than 100 employees from various fields, we can develop and implement complex, demanding projects.</p>
+           </div>
+         </div>
+
+     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box" id="icon-box-2">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Reliability</h4>
+             <p>Trust is an important cornerstone of our work – within the team as well as in cooperation with partners and with our customers. With us, you can always rely on high quality and individual service.</p>
+           </div>
+         </div>
+
+     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box" id="icon-box-2">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Tradition & Innovation</h4>
+             <p>For our successful work it is equally important to preserve the traditional achievements of the craft and to discover and use the advantages of progress again and again.</p>
+           </div>
+         </div>
+
+     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+           <div class="icon-box" id="icon-box-2">
+             <div class="icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                  <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+               </svg>
+             </div>
+             <h4>Sustainabilty</h4>
+             <p>The protection of natural resources is important to us. In order to do our bit for nature conservation, we use, for example, wood from responsibly managed forests and environmentally friendly varnishes.</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+  
+   <section>
+     <div class="contact">
+       <div class="container">
+           <h2>Contacts</h2>
+           <p>Contact us</p>
+           <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Via%20Assisi,%2044,%2000181%20Roma%20RM,%20Italy+(Premium%20Interior)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Driving Route Planner</a></div>
+
+         <div class="row mt-5">
+          <div class="col-lg-4">
+           <div class="info">
+             <div class="adress">
+               <div class="info-icon">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5em"  height="1.5em" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                   <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                 </svg>
+               </div>
+               <h4>Location</h4>
+               <p>48691 Vreden</p>
+             </div>
+             <div class="email">
+                 <div class="info-icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1.5em"  height="1.5em" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                     <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                   </svg>
+                 </div>
+               <h4>Email:</h4>
+               <p>servicegroup@schwanekamp.net</p>
+             </div>
+             <div class="phone">
+               <div class="info-icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1.5em"  height="1.5em" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                     <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                   </svg>
+               </div>
+               <h4>Telefon:</h4>
+               <p>+49 4582 9373 42242</p>
+             </div>
+           </div>
+         </div>
+      
+         <div class="col-lg-8">
+           <form action="#">
+             <div class="row">
+               <div class="col-lg-6">
+                 <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Name" required>
+                 </div>
+               </div>
+               <div class="col-lg-6">
+                 <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Surname" required>
+                 </div>
+               </div>
+               <div class="col-lg-6">
+                 <div class="form-group">
+                     <input type="Email" class="form-control mt-4" placeholder="Email" required>
+                 </div>
+               </div>
+               <div class="col-lg-6">
+                 <div class="form-group">
+                     <input type="number" class="form-control mt-4" placeholder="Telefon" required>
+                 </div>
+               </div>
+               <div class="col-12">
+                <div class="form-group">
+                   <textarea placeholder="Text" class="form-control mt-4" id="" cols="" rows=""></textarea>
+                   <button class="btn btn-primary mt-1 form-control">Send</button>
+                 </div>
+               </div>
+             </div>
+           </form>
+         </div>
+
+       </div>
+     </div>      
+   </div>
+   </section>
+
+   <footer>
+     <div class="footer-top">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-3 col-md-6">
+             <div class="footer-info">
+               <h3>Seven</h3>
+               <p>Via Assisi, 44<br>
+                 00181 Roma RM, Italy<br>
+                 <strong>Phone:</strong>+49 4582 9373 42242<br>
+                 <strong>Email</strong>servicegroup@schwanekamp.net<br>
+               </p>
+               <div class="social-links mt-3">
+                 <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-lg-3 col-md-6 footer-links">
+             <h4>Useful links</h4>
+             <ul>
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg><a href="#">Denial of responsibility</a></li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg><a href="#">Output</a></li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg><a href="#">Сonfidentiality</a></li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg><a href="#">Contact</a></li>
+             </ul>
+           </div>
+
+
+
+             <div class="col-lg-3 col-md-6 footer-newsletter">
+                 <h4>Our news</h4>
+                 <p>We want you to enjoy our products for a long time. For this reason we have set high standards for our designs, the materials used and their processing. Thus our work convinces in every detail!</p>
+                 <form action="#"></form>
+                 <input type="email"><input type="submit" value="Subscribe">             
+             </div>
+         </div>
+       </div>
+     </div>
+   </footer>
+
+
+
+ <!-- JavaScript Bundle with Popper.js -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
